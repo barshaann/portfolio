@@ -1,10 +1,10 @@
 [
   {
-    "title": "Campus Connect",
-    "description": "A student-focused platform to share notes, announcements, and events with a modern dashboard experience.",
-    "tags": ["Next.js", "TypeScript", "Tailwind", "MongoDB"],
-    "demoUrl": "https://example.com/campus-connect",
-    "repoUrl": "https://github.com/example/campus-connect"
+    "title": "Online Voting System",
+    "description": "An online voting management platform with admin authentication, candidate/position management, voter records, and ballot result tracking, built with PHP and MySQL.",
+    "tags": ["PHP", "MySQL", "Bootstrap", "JavaScript"],
+    "demoUrl": "https://votesystem-production-b2dd.up.railway.app/admin",
+    "repoUrl": "https://github.com/barshaann/votesystem"
   },
   {
     "title": "DevTrack",
