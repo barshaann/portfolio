@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Campus Connect",
+    "description": "A student-focused platform to share notes, announcements, and events with a modern dashboard experience.",
+    "tags": ["Next.js", "TypeScript", "Tailwind", "MongoDB"],
+    "demoUrl": "https://example.com/campus-connect",
+    "repoUrl": "https://github.com/example/campus-connect"
+  },
+  {
+    "title": "DevTrack",
+    "description": "A clean productivity app for developers to track tasks, habits, and coding goals with simple analytics.",
+    "tags": ["React", "Node.js", "Express", "PostgreSQL"],
+    "demoUrl": "https://example.com/devtrack",
+    "repoUrl": "https://github.com/example/devtrack"
+  },
+  {
+    "title": "Portfolio Studio",
+    "description": "A premium personal portfolio template featuring smooth motion, dark UI, and reusable component architecture.",
+    "tags": ["Next.js", "Framer Motion", "TypeScript", "Shadcn UI"],
+    "demoUrl": "https://example.com/portfolio-studio",
+    "repoUrl": "https://github.com/example/portfolio-studio"
+  }
+]
