@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://example.dev"),
   title: "Barshan Ghosh | B.Tech IT Student Portfolio",
   description:
-    "Portfolio of Barshan Ghosh, a B.Tech Information Technology student building modern, high-performance web products.",
+    "Portfolio of Barshan Ghosh, a B.Tech Information Technology student building modern, high performance web products.",
   keywords: [
     "developer portfolio",
     "barshan ghosh",
