@@ -3,7 +3,7 @@
     "title": "Online Voting System",
     "description": "An online voting management platform with admin authentication, candidate/position management, voter records, and ballot result tracking, built with PHP and MySQL.",
     "tags": ["PHP", "MySQL", "Bootstrap", "JavaScript"],
-    "demoUrl": "https://votesystem-production-b2dd.up.railway.app/admin",
+    "demoUrl": "https://votesystem-production-b2dd.up.railway.app/admin/index.php",
     "repoUrl": "https://github.com/barshaann/votesystem"
   },
   {
