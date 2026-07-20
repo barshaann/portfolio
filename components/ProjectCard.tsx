@@ -38,25 +38,29 @@ export default function ProjectCard({ project, index }: ProjectCardProps) {
         ))}
       </div>
 
-      <div className="mt-6 flex items-center gap-3">
-        <a
-          href={project.demoUrl}
-          target="_blank"
-          rel="noreferrer"
-          className="inline-flex items-center gap-2 rounded-full bg-cyan-600 px-4 py-2 text-sm font-medium text-white transition hover:bg-cyan-500 hover:shadow-lg hover:shadow-cyan-500/25 dark:bg-cyan-300 dark:text-slate-950 dark:hover:bg-cyan-200 dark:hover:shadow-cyan-300/25"
-        >
-          Live Demo
-          <FiArrowUpRight className="h-4 w-4" />
-        </a>
-        <a
-          href={project.repoUrl}
-          target="_blank"
-          rel="noreferrer"
-          className="inline-flex items-center gap-2 rounded-full border border-slate-300/80 bg-white/80 px-4 py-2 text-sm text-slate-700 transition hover:border-cyan-500/70 hover:text-cyan-700 dark:border-slate-700/80 dark:bg-slate-900/60 dark:text-slate-200 dark:hover:border-cyan-300/70 dark:hover:text-cyan-200"
-        >
-          Code
-          <FiGithub className="h-4 w-4" />
-        </a>
+      <div className="mt-6 flex flex-wrap items-center gap-3">
+        {project.demoUrl && (
+          <a
+            href={project.demoUrl}
+            target="_blank"
+            rel="noreferrer"
+            className="inline-flex items-center gap-2 rounded-full bg-cyan-600 px-4 py-2 text-sm font-medium text-white transition hover:bg-cyan-500 hover:shadow-lg hover:shadow-cyan-500/25 dark:bg-cyan-300 dark:text-slate-950 dark:hover:bg-cyan-200 dark:hover:shadow-cyan-300/25"
+          >
+            Live Demo
+            <FiArrowUpRight className="h-4 w-4" />
+          </a>
+        )}
+        {project.repoUrl && (
+          <a
+            href={project.repoUrl}
+            target="_blank"
+            rel="noreferrer"
+            className="inline-flex items-center gap-2 rounded-full border border-slate-300/80 bg-white/80 px-4 py-2 text-sm text-slate-700 transition hover:border-cyan-500/70 hover:text-cyan-700 dark:border-slate-700/80 dark:bg-slate-900/60 dark:text-slate-200 dark:hover:border-cyan-300/70 dark:hover:text-cyan-200"
+          >
+            Code
+            <FiGithub className="h-4 w-4" />
+          </a>
+        )}
       </div>
     </motion.article>
   );
